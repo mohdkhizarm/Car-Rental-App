@@ -1,0 +1,13 @@
+<template>
+    <a onclick={handleCarSelect}>
+        <div class={isCarSelected}> <!--Is car selected? if yes then only pass classes to this div-->
+            <img src={car.Picture__c} alt="Car Picture" class="car slds-align_absolute-center">
+            <div>
+                <p class="title slds-align_absolute-center">{car.Name}</p>
+                <p class="slds-align_absolute-center">
+                    Owner: {car.Contact__r.Name}
+                </p>
+            </div>
+        </div>
+    </a>
+</template>

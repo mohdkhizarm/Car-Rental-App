@@ -1,0 +1,27 @@
+a{
+  color:inherit
+}
+
+img.car {
+  height: 120px;
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Classes that gets applied when condition becomes true */
+
+.tile{
+  padding: 8px;
+  background-color: white;
+  border-radius: 5rem;
+}
+
+.selected {
+  border-radius: 4px;
+  border: medium solid royalblue;
+}
