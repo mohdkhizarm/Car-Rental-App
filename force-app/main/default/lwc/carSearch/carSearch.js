@@ -7,8 +7,6 @@ export default class CarSearch extends LightningElement {
         this.carTypeId = event.detail; // detail store carType, bcz event carry (detail: carTypeId)
         console.log("Inside Parent Handler", this.carTypeId);
     }
-
-
 }
 
 

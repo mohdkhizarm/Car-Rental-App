@@ -8,10 +8,10 @@
                             <c-car-detail car={car} ></c-car-detail>
                         </lightning-tab>
                         <lightning-tab label="Add Car Experience" value="addexperience" onactive={tabChangeHandler}>
-                            <c-add-car-experience car-id={car.Id} ></c-add-car-experience>
+                            <c-add-car-experience car-id={carId} ></c-add-car-experience>
                         </lightning-tab>
                         <lightning-tab label="View Experiences" value="viewexperience" onactive={tabChangeHandler}>
-    
+                            <c-view-car-experience car-id={carId} ></c-view-car-experience>
                         </lightning-tab>
                     </lightning-tabset>
                 </lightning-layout-item>
